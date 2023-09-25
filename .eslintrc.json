@@ -50,23 +50,6 @@
     "react/jsx-tag-spacing": [
       "error",
       { "beforeSelfClosing": "always" }
-    ],
-    "import/order": [
-      "error",
-      {
-        "pathGroups": [
-          {
-            "pattern": "react",
-            "group": "external",
-            "position": "before"
-          }
-        ],
-        "pathGroupsExcludedImportTypes": ["react"],
-        "alphabetize": {
-          "order": "asc",
-          "caseInsensitive": true
-        }
-      }
     ]
   }
 }
